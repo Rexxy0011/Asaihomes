@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+}
+
+@theme {
+  /* Brand Colors */
+  --color-primary: #0a1d37; /* Deep Navy Blue – brand base */
+  --color-primary-light: #132c4a; /* Slightly lighter navy for hover or gradients */
+  --color-accent: #d4af37; /* Gold – accent for buttons, highlights, and icons */
+
+  /* Neutral Support Colors */
+  --color-dark: #1a1a1a; /* Charcoal for text or deep sections */
+  --color-light: #f8f8f8; /* Soft light gray for contrast sections */
+  --color-white: #ffffff;
+
+  /* Hero Overlay */
+  --color-overlay: rgba(
+    0,
+    0,
+    0,
+    0.55
+  ); /* keeps text readable over hero image */
+}
