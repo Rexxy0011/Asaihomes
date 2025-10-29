@@ -10,8 +10,8 @@ import {
   Users,
 } from "lucide-react";
 import { assets } from "../assets/assets";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 const About = () => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
